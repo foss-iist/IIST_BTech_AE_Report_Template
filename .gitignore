@@ -1,0 +1,10 @@
+*.aux
+*.fdb*
+*.log
+*.nlo
+*.out
+*.gz
+*.fls
+auto/
+*.el
+*~
