@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper,final]{report}
+\documentclass[10pt,a4paper,final,twoside]{report}
 
 \usepackage{graphicx}
 \usepackage[sort,authoryear]{natbib}
@@ -58,9 +58,14 @@
 
 \begin{document}
 \maketitle{}
+\cleardoublepage{}
+\maketitle{}
+\cleardoublepage{}
 
 \input{Bonafide/Bonafide}
+\cleardoublepage{}
 \input{Declaration/Declaration}
+\cleardoublepage{}
 
 \bibliographystyle{elsarticle-harv}
 % \bibliography{yourbibfile}
